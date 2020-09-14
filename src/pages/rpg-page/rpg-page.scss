@@ -1,0 +1,21 @@
+.skills-wrapper {
+  margin-left: 20px;
+  margin-top: 20px;
+  display: grid;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 690px;
+  height: 180px;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 160px);
+  border: 1px solid black;
+}
+
+.skill-slot {
+  display: flex;
+  height: 160px;
+  width: 160px;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+}

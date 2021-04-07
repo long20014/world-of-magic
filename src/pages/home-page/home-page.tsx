@@ -6,7 +6,7 @@ export default class HomePage extends React.Component {
     return (
       <div className="component-wrapper">
         <h1>HomePage</h1>
-        <custom-button></custom-button>
+        {/* <custom-button></custom-button> */}
       </div>
     );
   }
